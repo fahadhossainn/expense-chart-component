@@ -57,9 +57,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 44rem) {
-    height: 60vh;
-  }
 }
 
 .container {
