@@ -27,7 +27,7 @@ body {
   align-items: center; }
   @media (max-width: 44rem) {
     .main {
-      height: 60vh; } }
+      min-height: 60vh; } }
 
 .container {
   width: 32rem;
@@ -96,6 +96,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-1::before {
+              display: inline-block; } }
         .details__chart--item-1::after {
           content: "sun";
           left: 10%;
@@ -115,6 +118,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-2::before {
+              display: inline-block; } }
         .details__chart--item-2::after {
           content: "mon";
           left: 10%;
@@ -134,6 +140,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-3::before {
+              display: inline-block; } }
         .details__chart--item-3::after {
           content: "tue";
           left: 10%;
@@ -154,6 +163,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-4::before {
+              display: inline-block; } }
         .details__chart--item-4::after {
           content: "wed";
           left: 10%;
@@ -173,6 +185,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-5::before {
+              display: inline-block; } }
         .details__chart--item-5::after {
           content: "thu";
           left: 10%;
@@ -192,6 +207,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-6::before {
+              display: inline-block; } }
         .details__chart--item-6::after {
           content: "Fri";
           left: 10%;
@@ -211,6 +229,9 @@ body {
           font-size: 0.9rem;
           transform: translateY(-150%);
           display: none; }
+          @media (hover: none) {
+            .details__chart--item-7::before {
+              display: inline-block; } }
         .details__chart--item-7::after {
           content: "sat";
           left: 10%;

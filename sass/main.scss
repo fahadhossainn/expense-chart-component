@@ -39,6 +39,9 @@ body {
     font-size: 0.9rem;
     transform: translateY(-150%);
     display: none;
+    @media (hover: none) {
+      display: inline-block;
+    }
   }
   &::after {
     content: $day;
@@ -58,7 +61,7 @@ body {
   justify-content: center;
   align-items: center;
   @media (max-width: 44rem) {
-    height: 60vh;
+    min-height: 60vh;
   }
 }
 
@@ -129,6 +132,7 @@ body {
       &:hover::before {
         display: inline-block;
       }
+
       &-1 {
         // height: 45.48%;
         grid-area: 5/1/8/2;
